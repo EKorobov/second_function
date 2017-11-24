@@ -5,7 +5,9 @@
       "name": "req",
       "type": "httpTrigger",
       "direction": "in",
-      "authLevel": "anonymous"
+      "authLevel": "anonymous",
+      "methods": ["get"],
+      "route": "second/{id:int}"
     },
     {
       "name": "res",
