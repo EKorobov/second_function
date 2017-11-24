@@ -1,1 +1,1 @@
-first azure function
+second azure function
