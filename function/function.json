@@ -10,7 +10,7 @@
     },
     {
       "name": "res",
-      "type": "http",
+      "type": "https",
       "direction": "out"
     }
   ],
