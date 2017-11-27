@@ -2,9 +2,7 @@
 
 import os, sys
 
-def main_function(n):
-    print('hello from main_function(n=%s)' % n)
+print open(os.environ['req'], 'r').read()
 
-print 'hello from __main__'
-
-print os.environ['req']
+with open(os.environ['res']) as res:
+    res.write('ololololo')
